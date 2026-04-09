@@ -5,7 +5,7 @@ permissions:
 
 on:
     schedule:
-        - cron: "0 20 * * *"  # 北京时间20 + 8 = 凌晨 04:00 执行
+        - cron: "0 20 * * *"  # 北京时间 20 + 8 = 凌晨 04:00 执行
     workflow_dispatch:  # 允许手动触发
 
 jobs:
